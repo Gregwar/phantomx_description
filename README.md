@@ -1,14 +1,10 @@
-## phantomx_description
+# PhantomX simulation
 
-ROS package providing mesh files and URDF of the Phantom X Hexapod robot for use with the real robot or Gazebo.
-URDF contains joint transmissions for controllers and Gazebo referenced plugins for camera and the IMU provided by hector_gazebo.
+This is a fork from:
+https://github.com/HumaRobotics/phantomx_description
 
-![Phantom X model in Gazebo](/phantomx.png?raw=true "Phantom X model in Gazebo")
+Adding `sim.py`, that runs a pyBullet simulation. You first need to install `onshape-to-robot` package:
 
-
-## Install
-Just clone in your catkin workspace. You may need to install the hector_gazebo ROS package.
-
-## License
-
-This software is provided by Génération Robots http://www.generationrobots.com and HumaRobotics http://www.humarobotics.com under the Simplified BSD license
+```
+    pip install onshape-to-robot
+```
